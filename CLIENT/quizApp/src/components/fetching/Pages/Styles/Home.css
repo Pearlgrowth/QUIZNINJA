@@ -1,0 +1,97 @@
+body{
+    background-image: url("./q.jpg");
+    background-size: cover;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    /* background-color: rgb(127, 127, 167); */
+    width: 3000px;
+    height: 1400px;
+}
+
+#home{
+    width: 1000px;
+    height: 700px;
+}
+.image{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 1600px;
+}
+.phome{
+    font-family:cursive;
+    font-weight: 800;
+    font-size: 60px;
+    color: black;
+}
+#phome2{
+    color: black;
+    font-size: 33px;
+}
+#phome3{
+color: black;
+text-align: center;
+}
+.button{
+width: 300px;
+height: 60px;
+color: rgb(243, 236, 236);
+background-color:#7f65f1;
+font-size: 35px;
+border: 1px solid black;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.button:hover{
+    background-color: cadetblue;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    width: 1000px; 
+    height: 300px;
+    gap: 190px;
+    margin-left: 800px;
+  }
+  #shome{
+width: 400px;
+height: 100px;
+
+  }
+  #phome3{
+    color: white;
+  }
+.quizbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.homeDescription{
+    display: flex;
+    width: 1000PX;
+    height: 700px;
+    border-radius: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     align-items:center;
+     justify-content: center;
+     background-color:rgb(127, 127, 167);
+    margin-left:-200px;
+     margin-top: 160px;
+}

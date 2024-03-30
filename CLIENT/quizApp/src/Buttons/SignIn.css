@@ -1,0 +1,73 @@
+
+
+
+.container3 {
+    width: 1000px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start; 
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color:rgb(127, 127, 167);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signIn {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+  }
+  .signIn h2 {
+    text-align: center;
+    font-size: 40px;
+    color:rgb(182, 41, 151);
+  }
+  
+  .signIn label {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: black;
+  }
+  
+  .signIn input[type="text"] , input[type= "password"]{
+    width: 900px;
+    height: 700px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+  }
+
+  
+  .footer2 {
+    align-content: center; 
+    margin-top: 80px;
+    margin-left: 250px;
+    height: 100px;
+    width: 400px;
+  }
+  
+  button {
+    background-color: #7f65f1;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+   color: black;
+   font-size: 25px;
+   width: 150px;
+   height: 70px;
+  }
+  
+  button:hover {
+    background-color: #779cc0;
+  }
+  
